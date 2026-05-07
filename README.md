@@ -1,6 +1,8 @@
 # AgentSkills
 A collection of different SKILLS.md files I've found and find useful (or think I might find useful)
 
+Note that none of these are intended to be fully trusted! All should be considered more as "inspiration" that "direct use". My current manner of thinking says, "For your given project, pick and choose the skills here and copy them into your project." Definitely do not drop these in the global location for your coding agent to use; I think that could probably blow the context window right out of the atmosphere.
+
 ## Repository Purpose
 
 **Canonical repository:** https://github.com/tedneward/AgentSkills
@@ -11,24 +13,29 @@ This is a knowledge base repository - not a traditional code project. There is n
 
 ```
 AgentSkills/
-├── skills/                 # Flat structure for Copilot compatibility
+├── agents/                 # Agent definitions
+├── commands/               # Command (slash-command) definitions
+├── mcps/                   # MCP server configurations (JSONs)
+├── skills/                 # Flat structure
 │   ├── akka-best-practices/SKILL.md
 │   ├── aspire-integration-testing/SKILL.md
 │   ├── csharp-coding-standards/SKILL.md
 │   ├── testcontainers/SKILL.md
 │   └── ...
-├── agents/                 # Agent definitions (flat .md files)
 ```
 
 ### Skill Naming Convention
 
-Skills use a flat directory structure with prefixes for framework-specific skills:
+Skills use a flat directory structure with prefixes for domain-specific skills:
+
 - `akka-*` - Akka.NET skills
 - `aspire-*` - .NET Aspire skills
 - `csharp-*` - C# language skills
+- `database-*` - Database skills
 - `dotnet-*` - General .NET-related skills
-- `microsoft-extensions-*` - Microsoft.Extensions.* packages
-- `playwright-*` - Playwright-specific skills
+
+... and so on. Prefixes should be pretty self-explanatory?
+
 
 ## File Formats
 
