@@ -13,15 +13,19 @@ This is a knowledge base repository - not a traditional code project. There is n
 
 ```
 AgentSkills/
-├── agents/                 # Agent definitions
-├── commands/               # Command (slash-command) definitions
-├── mcps/                   # MCP server configurations (JSONs)
-├── skills/                 # Flat structure
-│   ├── akka-best-practices/SKILL.md
-│   ├── aspire-integration-testing/SKILL.md
-│   ├── csharp-coding-standards/SKILL.md
-│   ├── testcontainers/SKILL.md
-│   └── ...
+├── Development/            # Tools for software development
+│   ├── Akka.NET/           # Akka.NET-specific software development
+│   │   ├── agents/                 # Agent definitions
+│   │   ├── commands/               # Command (slash-command) definitions
+│   │   ├── mcps/                   # MCP server configurations (JSONs)
+│   │   ├── skills/                 # Flat structure
+│   ├── CSharp/             # C#-specific software development tools
+│   │   ├── agents/                 # Agent definitions
+│   │   ├── commands/               # Command (slash-command) definitions
+│   │   ├── mcps/                   # MCP server configurations (JSONs)
+│   │   ├── skills/                 # Flat structure
+│   ...
+├── Uncategorized/          # Just like the label says; holding pen
 ```
 
 ### Skill Naming Convention
